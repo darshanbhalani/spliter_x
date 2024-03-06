@@ -1,0 +1,32 @@
+name: spliter_x
+description: Money spliter mobile application
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  firebase_database: ^10.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+assets:
+  - Assets/
+
